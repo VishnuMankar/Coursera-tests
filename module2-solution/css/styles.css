@@ -25,6 +25,7 @@ div {
   padding: 5px;
   border-left: 3px solid black;
   border-bottom: 3px solid black;
+  font-weight: bold;
 }
 
 #p2 {

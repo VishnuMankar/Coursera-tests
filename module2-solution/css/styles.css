@@ -1,3 +1,9 @@
 body {
     background-color: rgb(190, 132, 56);
 }
+
+div {
+    background-color: aqua;
+    text-align: center;
+    margin: 0%;
+}

@@ -7,9 +7,6 @@ h1 {
   font-family: Helvetica;
 }
 
-body {
-  background-color:aqua;
-}
 
 div {
   width: auto;
@@ -17,28 +14,38 @@ div {
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  color: aqua;
+  color: black;
   text-align: center;
 }
 
 #p1 {
-  border: 1px solid black;
-  background-color: aqua;
-  width: fit-content;
+  border: 3px solid black;
+  width: 100px;
   height: auto;
   margin: 0%;
   font-family: Helvetica;
   color: rgb(30, 37, 41);
-  text-align: right;
   position: relative;
   float: right;
 }
 
+.title1 {
+  background-color: pink;
+}
+
+.title2 {
+  background-color: indianred;
+}
+
+.title3 {
+  background-color: khaki;
+}
+
 .container {
-  border: 1px solid black;
+  border: 3px solid black;
   position: relative;
   margin: 5px;
-  background-color: rgb(30, 37, 41);
+  background-color: #adb5bd;
 }
 
 @media (min-width: 992px) {
@@ -124,6 +131,6 @@ div {
     width: 91.66%;
   }
   .col-md-12 {
-    width: 100%;
+    width: 98%;
   }
 }
